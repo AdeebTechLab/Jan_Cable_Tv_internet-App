@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="yyyyyy">#ed9d00</color>
+    <color name="bbbbbb">#030e4e</color>
+    <color name="gggg">#008000</color>
+    <color name="dale">#878787</color>
+    <color name="y">#fdfce1</color>
+    <color name="b">#e3e1fd</color>
+    <color name="g">#e1fdec</color>
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentBackup">
+
+    <TextView
+        android:id="@+id/ttte"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/black"
+        android:gravity="center_vertical"
+        android:text="  Billing History"
+        android:textColor="@color/y"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- TextView for displaying P1 -->
+    <TextView
+        android:id="@+id/p1Display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/y"
+        android:padding="16dp"
+        android:text="Loading P1..."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ttte" />
+
+    <!-- TextView for displaying P2 -->
+    <TextView
+        android:id="@+id/p2Display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/b"
+        android:padding="16dp"
+        android:text="Loading P2..."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Display" />
+
+    <!-- TextView for displaying P3 -->
+    <TextView
+        android:id="@+id/p3Display"
+        android:background="@color/y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2Display" />
+
+    <TextView
+        android:id="@+id/p4Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/b"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p3Display" />
+
+    <TextView
+        android:id="@+id/p5Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/y"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p4Display" />
+
+    <TextView
+        android:id="@+id/p6Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/b"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p5Display" />
+
+    <TextView
+        android:id="@+id/p7Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/y"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p6Display" />
+
+    <TextView
+        android:id="@+id/p8Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/b"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p7Display" />
+
+    <TextView
+        android:id="@+id/p9Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/y"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p8Display" />
+
+    <TextView
+        android:id="@+id/p10Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/b"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p9Display" />
+
+    <TextView
+        android:id="@+id/p11Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/y"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p10Display" />
+
+    <TextView
+        android:id="@+id/p12Display"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/b"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Loading P3..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p11Display" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
